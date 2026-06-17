@@ -1,4 +1,4 @@
-# 🎓 Portal do Candidato - ENEM
+# 🎓 Portal do Candidato ENEM
 
 <div align="center">
 
@@ -10,50 +10,51 @@
 </div>
 
 
-## 📚 Sobre o Projeto criado
+## 📚 Sobre o Projeto
 
-Este projeto consiste no desenvolvimento de um **Portal de Inscrição do ENEM**, simulando uma plataforma de cadastro e acesso de candidatos.
+Este projeto consiste no desenvolvimento de um **Portal de Inscrição e Login do ENEM**, simulando uma plataforma onde candidatos podem acessar o sistema e realizar seu cadastro.
 
-A aplicação foi criada como projeto prático da disciplina de **Programação Frontend**, utilizando tecnologias fundamentais da web:
+Projeto desenvolvido para a disciplina de **Programação Frontend**, utilizando tecnologias essenciais do desenvolvimento web:
 
 - HTML5
 - CSS3
 - JavaScript
 
 
-O sistema possui uma interface inspirada em portais educacionais/governamentais, oferecendo uma experiência simples, organizada e responsiva.
+O sistema possui uma interface inspirada em portais educacionais, com foco em organização, responsividade e experiência do usuário.
 
 
 ---
 
-# 🚀 Funcionalidades do projeto
-
-## 🔐 Tela de Login do projeto
-
-A página inicial permite que o usuário:
-
-- Informe seu e-mail
-- Informe sua senha
-- Realize validação dos dados
-- Acesse o sistema
+# 🚀 Funcionalidades
 
 
-Também possui:
+## 🔐 Tela de Login
 
-✅ Botão de login  
-✅ Botão de cadastro de novo usuário  
-✅ Mensagens de erro dinâmicas  
-✅ Navegação utilizando JavaScript  
+A página inicial permite:
+
+- Inserção de e-mail
+- Inserção de senha
+- Validação dos dados
+- Acesso ao sistema
+
+
+Possui:
+
+✅ Botão Entrar  
+✅ Cadastro de novo usuário  
+✅ Validação com JavaScript  
+✅ Mensagens de erro na tela  
 
 
 ---
 
-## 📝 Tela de Cadastro do projeto
+## 📝 Tela de Cadastro
 
-A tela de inscrição contém os dados completos do candidato:
+O candidato informa seus dados:
 
 
-### Dados pessoais
+### 👤 Dados pessoais
 
 - Nome completo
 - E-mail
@@ -62,7 +63,7 @@ A tela de inscrição contém os dados completos do candidato:
 - Nome do pai
 
 
-### Endereço
+### 📍 Endereço
 
 - Rua/Avenida
 - Número
@@ -71,13 +72,13 @@ A tela de inscrição contém os dados completos do candidato:
 - País
 
 
-### Informações escolares
+### 🎓 Informações escolares
 
 - Situação do Ensino Médio
 - Tipo de escola
 
 
-### Segurança
+### 🔒 Segurança
 
 - Criação de senha
 - Confirmação de senha
@@ -85,64 +86,67 @@ A tela de inscrição contém os dados completos do candidato:
 
 ---
 
-# 🧠 Validações JavaScript do projeto
-
-O sistema possui validações utilizando manipulação do DOM.
+# 🧠 Validações JavaScript
 
 
-## ✉️ E-mail
+O sistema utiliza manipulação do DOM para validar os dados antes do envio.
 
-O usuário deve informar um e-mail contendo:
+
+## ✉️ Validação de E-mail
+
+O e-mail deve conter:
+
+
+
+Caso esteja incorreto, uma mensagem aparece abaixo do campo.
+
+
+---
+
+## 🔑 Validação de Senha
+
+A senha precisa possuir:
+
+✔ Pelo menos 8 caracteres  
+✔ Uma letra maiúscula  
+
+
+Exemplo:
 
 
 
 ---
 
-## 🔑 Senha
+## 🔁 Confirmação de Senha
 
-A senha deve possuir:
-
-✔ No mínimo 8 caracteres  
-✔ Pelo menos uma letra maiúscula  
+A senha informada na confirmação deve ser exatamente igual à senha cadastrada.
 
 
-Exemplo válido:
+Em caso de erro:
 
-
-
----
-
-## 🔁 Confirmação
-
-A confirmação deve ser exatamente igual à senha cadastrada.
-
-
-Caso exista algum erro:
-
-- O envio é bloqueado
-- Uma mensagem aparece abaixo do campo
-- O usuário recebe feedback visual em vermelho
+- O formulário é bloqueado
+- A mensagem aparece em vermelho
+- O usuário pode corrigir o campo
 
 
 ---
 
 # 🎨 Design
 
-O layout foi desenvolvido seguindo uma identidade visual próxima a sistemas oficiais:
+
+O projeto segue uma identidade visual inspirada em sistemas oficiais.
 
 
-### Cores utilizadas
+## Cores utilizadas
+
 
 🔵 Azul escuro
 
 
-
-🟡 Destaque dos botões
-
+🟡 Botões
 
 
 🔴 Mensagens de erro
-
 
 
 Características:
@@ -150,38 +154,49 @@ Características:
 - Cabeçalho fixo
 - Rodapé fixo
 - Formulário centralizado
-- Design responsivo
-- Compatível com celular e computador
+- Layout responsivo
+- Compatível com computador e celular
 
 
 ---
 
-# 📂 Estrutura do Projeto criado
-
+# 📂 Estrutura do Projeto
+Portal-ENEM
+│── enem.png
+│
+├── index.html
+│
+├── inscricao.html
+│
+├── style.css
+│
+├── index.js
+│
+└── README.md
 
 
 ---
 
-# 🛠 Tecnologias utilizadas neste projeto
+# 🛠 Tecnologias Utilizadas
 
 
 ## HTML5
 
-Responsável pela estrutura das páginas.
+Estrutura das páginas.
 
 
 ## CSS3
 
-Responsável pelo:
+Responsável por:
 
+- Estilização
 - Layout
 - Responsividade
-- Estilização
 
 
 ## JavaScript
 
-Responsável pela:
+Responsável por:
 
 - Navegação entre páginas
 - Validação dos formulários
@@ -190,36 +205,10 @@ Responsável pela:
 
 ---
 
-# ▶️ Como executar
+# ▶️ Como Executar
 
 
-1. Baixe ou clone o projeto:
+Clone o repositório:
 
 ```bash
 git clone URL_DO_REPOSITORIO
-Tela Inicial
-      |
-      |
-      v
-
-Login
-      |
-      |
-      v
-
-Cadastro do candidato
-      |
-      |
-      v
-
-Validação dos dados
-      |
-      |
-      v
-
-Inscrição salva
-      |
-      |
-      v
-
-Retorno ao Login
