@@ -1,4 +1,4 @@
-# 🎓 Portal do Candidato - ENEM
+# 🎓 Portal do Candidato de inscrição e login- ENEM
 
 <div align="center">
 
@@ -10,7 +10,7 @@
 </div>
 
 
-## 📚 Sobre o Projeto
+## 📚 Sobre o Projeto criado
 
 Este projeto consiste no desenvolvimento de um **Portal de Inscrição do ENEM**, simulando uma plataforma de cadastro e acesso de candidatos.
 
@@ -26,7 +26,7 @@ O sistema possui uma interface inspirada em portais educacionais/governamentais,
 
 ---
 
-# 🚀 Funcionalidades
+# 🚀 Funcionalidades deste projeto
 
 ## 🔐 Tela de Login
 
@@ -85,7 +85,7 @@ A tela de inscrição contém os dados completos do candidato:
 
 ---
 
-# 🧠 Validações JavaScript
+# 🧠 Validações JavaScript deste projeto
 
 O sistema possui validações utilizando manipulação do DOM.
 
@@ -98,7 +98,7 @@ O usuário deve informar um e-mail contendo:
 
 ---
 
-## 🔑 Senha
+## 🔑 Senha 
 
 A senha deve possuir:
 
@@ -126,7 +126,7 @@ Caso exista algum erro:
 
 ---
 
-# 🎨 Design
+# 🎨 Design exemplificada no projeto
 
 O layout foi desenvolvido seguindo uma identidade visual próxima a sistemas oficiais:
 
