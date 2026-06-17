@@ -10,7 +10,7 @@
 </div>
 
 
-## 📚 Sobre o Projeto
+## 📚 Sobre o Projeto criado
 
 Este projeto consiste no desenvolvimento de um **Portal de Inscrição do ENEM**, simulando uma plataforma de cadastro e acesso de candidatos.
 
@@ -26,9 +26,9 @@ O sistema possui uma interface inspirada em portais educacionais/governamentais,
 
 ---
 
-# 🚀 Funcionalidades
+# 🚀 Funcionalidades do projeto
 
-## 🔐 Tela de Login
+## 🔐 Tela de Login do projeto
 
 A página inicial permite que o usuário:
 
@@ -48,7 +48,7 @@ Também possui:
 
 ---
 
-## 📝 Tela de Cadastro
+## 📝 Tela de Cadastro do projeto
 
 A tela de inscrição contém os dados completos do candidato:
 
@@ -85,7 +85,7 @@ A tela de inscrição contém os dados completos do candidato:
 
 ---
 
-# 🧠 Validações JavaScript
+# 🧠 Validações JavaScript do projeto
 
 O sistema possui validações utilizando manipulação do DOM.
 
@@ -156,13 +156,13 @@ Características:
 
 ---
 
-# 📂 Estrutura do Projeto
+# 📂 Estrutura do Projeto criado
 
 
 
 ---
 
-# 🛠 Tecnologias utilizadas
+# 🛠 Tecnologias utilizadas neste projeto
 
 
 ## HTML5
