@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro ENEM</title>
+    <link rel="icon" type="image/png" href="enem.png/inep.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+
+        <h1>Portal do Candidato - ENEM</h1>
+
+    </header>
+
+    <main>
+
+        <section class="card">
+
+            <h2>Cadastro do Candidato</h2>
+
+            <form id="cadastroForm">
+
+                <label>Nome Completo:</label>
+
+                <input id="nome" required>
+
+                <label>E-mail:</label>
+
+                <input type="email" id="email" required>
+
+                <span class="erro" id="erroEmail"></span>
+
+                <label>Telefone:</label>
+
+                <input id="telefone" required>
+
+                <label>Nome da Mãe:</label>
+
+                <input id="mae" required>
+
+                <label>Nome do Pai:</label>
+
+                <input id="pai" required>
+
+                <label>Rua/Avenida:</label>
+
+                <input id="rua" required>
+
+                <label>Número:</label>
+
+                <input type="number" id="numero" required>
+
+                <label>Cidade:</label>
+
+                <input id="cidade" required>
+
+                <label>Estado:</label>
+
+                <input id="estado" required>
+
+                <label>País:</label>
+
+                <input id="pais" required>
+
+                <label>Situação do Ensino Médio:</label>
+
+                <select id="ensino">
+
+                    <option>
+                        Estou cursando
+                    </option>
+
+                    <option>
+                        Já concluí
+                    </option>
+
+                </select>
+
+                <label>Tipo de Escola:</label>
+
+                <select id="escola">
+
+                    <option>
+                        Pública
+                    </option>
+
+                    <option>
+                        Privada
+                    </option>
+
+                </select>
+
+                <label>Senha:</label>
+
+                <input type="password" id="senha" required>
+
+                <span class="erro" id="erroSenha"></span>
+
+                <label>Confirmar Senha:</label>
+
+                <input type="password" id="confirmar" required>
+
+
+                <span class="erro" id="erroConfirmar"></span>
+
+                <button type="submit">
+
+                    Salvar Inscrição
+
+                </button>
+
+                <button type="button" id="btnVoltar">
+
+                    Voltar
+                
+                </button>
+
+            </form>
+
+        </section>
+
+    </main>
+
+    <footer>
+
+        <p>
+            © 2026 Sistema de Inscrição ENEM - Todos direitos reservados  João Pedro Afonso
+        </p>
+
+    </footer>
+
+    <script src="index.js"></script>
+
+
+</body>
+
+
+</html>

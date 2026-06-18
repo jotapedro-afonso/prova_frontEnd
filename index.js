@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         botaoCadastro.addEventListener("click", function () {
 
-            window.location.href = "inscricao.html";
+            window.location.href = "cadastro.html";
 
         });
 
