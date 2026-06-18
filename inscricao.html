@@ -5,7 +5,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastro ENEM</title>
+    <title>Portal do Candidato ENEM</title>
     <link rel="icon" type="image/png" href="enem.png/inep.png">
     <link rel="stylesheet" href="style.css">
 </head>
@@ -14,7 +14,7 @@
 
     <header>
 
-        <h1>Portal do Candidato - ENEM</h1>
+        <h1>Inscrição da Prova - ENEM</h1>
 
     </header>
 
@@ -22,104 +22,78 @@
 
         <section class="card">
 
-            <h2>Cadastro do Candidato</h2>
+            <h2>Preenchimento de informações para inscrição</h2>
 
-            <form id="cadastroForm">
+            <form id="registerForm">
 
-                <label>Nome Completo:</label>
+                <select id="lingua">
 
-                <input id="nome" required>
+                    <option value="">Escolha de lingua estrangeira:</option>
+                    
+                    <option>Inglês</option>
+                    
+                    <option>Espanhol</option>
+                    
+                    </select>
 
-                <label>E-mail:</label>
+                    <select>
 
-                <input type="email" id="email" required>
+                        <option>Estado</option>
+                        
+                        <option>SP</option>
+                        
+                        <option>RJ</option>
+                        
+                        </select>
+                        
+                        
+                        <select>
+                        
+                        <option>Cidade</option>
 
-                <span class="erro" id="erroEmail"></span>
+                        <option>Serra Negra</option>
+ 
+                        <option>Monte alegre</option>
+ 
+                        <option>São Paulo</option>
+                        
+                        <option>Rio de Janeiro</option>
+                        
+                        </select>
+                        
+                        
+                        <p>Atendimento especializado?</p>
+                        
+                        
+                        <select id="especial">
+                        
+                        <option value="nao">Não</option>
+                        
+                        <option value="sim">Sim</option>
+                        
+                        </select>
 
-                <label>Telefone:</label>
-
-                <input id="telefone" required>
-
-                <label>Nome da Mãe:</label>
-
-                <input id="mae" required>
-
-                <label>Nome do Pai:</label>
-
-                <input id="pai" required>
-
-                <label>Rua/Avenida:</label>
-
-                <input id="rua" required>
-
-                <label>Número:</label>
-
-                <input type="number" id="numero" required>
-
-                <label>Cidade:</label>
-
-                <input id="cidade" required>
-
-                <label>Estado:</label>
-
-                <input id="estado" required>
-
-                <label>País:</label>
-
-                <input id="pais" required>
-
-                <label>Situação do Ensino Médio:</label>
-
-                <select id="ensino">
-
-                    <option>
-                        Estou cursando
-                    </option>
-
-                    <option>
-                        Já concluí
-                    </option>
-
-                </select>
-
-                <label>Tipo de Escola:</label>
-
-                <select id="escola">
-
-                    <option>
-                        Pública
-                    </option>
-
-                    <option>
-                        Privada
-                    </option>
-
-                </select>
-
-                <label>Senha:</label>
-
-                <input type="password" id="senha" required>
-
-                <span class="erro" id="erroSenha"></span>
-
-                <label>Confirmar Senha:</label>
-
-                <input type="password" id="confirmar" required>
+                        <div id="campo" style="display:none">
 
 
-                <span class="erro" id="erroConfirmar"></span>
+                            <input 
+                            id="necessidade"
+                            placeholder="Informe sua necessidade">
+                            
+                            </div>                
+            
+                            <button type="button" id="btnconfirm">
+                            
+                            Confirmar Inscrição
+                            
+                            </button>
+                                
+                            <p id="msg"></p>
+                        
+                            </form>
 
-                <button type="submit">
-
-                    Salvar Inscrição
-
-                </button>
-
-                <button type="button" id="btnVoltar">
-
-                    Voltar
-                
-                </button>
+              
+             
 
             </form>
 
@@ -137,8 +111,6 @@
 
     <script src="index.js"></script>
 
-
 </body>
-
 
 </html>

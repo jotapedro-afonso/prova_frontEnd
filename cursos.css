@@ -1,0 +1,308 @@
+/* cursos.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+*{
+
+    box-sizing:border-box;
+
+    font-family:'Roboto', sans-serif;
+
+}
+
+
+
+body{
+
+    margin:0;
+
+    background:#f4f4f4;
+
+    min-height:100vh;
+
+    padding-top:90px;
+
+    padding-bottom:70px;
+
+}
+
+
+
+/* HEADER */
+
+header{
+
+    position:fixed;
+
+    top:0;
+
+    width:100%;
+
+    background:#004b87;
+
+    color:white;
+
+    text-align:center;
+
+    padding:20px;
+
+    z-index:1000;
+
+}
+
+
+
+nav{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:30px;
+
+}
+
+
+
+nav a{
+
+    color:white;
+
+    text-decoration:none;
+
+    font-size:18px;
+
+    font-weight:bold;
+
+}
+
+
+
+nav a:hover{
+
+    color:#f1c40f;
+
+}
+
+
+
+
+/* FOOTER */
+
+footer{
+
+    position:fixed;
+
+    bottom:0;
+
+    width:100%;
+
+    background:#004b87;
+
+    color:white;
+
+    text-align:center;
+
+    padding:15px;
+
+}
+
+
+
+
+
+/* CONTEUDO */
+
+main{
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+}
+
+
+
+
+.card{
+
+    background:white;
+
+    width:90%;
+
+    max-width:700px;
+
+    padding:30px;
+
+    border-radius:12px;
+
+    box-shadow:0 0 15px #aaa;
+
+    text-align:center;
+
+}
+
+
+
+
+h1{
+
+    text-align:center;
+
+    color:#003366;
+
+}
+
+
+
+h2{
+
+    text-align:center;
+
+}
+
+
+
+/* SELECT */
+
+select{
+
+
+    width:80%;
+
+    max-width:350px;
+
+    padding:10px;
+
+    border-radius:5px;
+
+    border:1px solid #777;
+
+    margin:20px;
+
+
+}
+
+
+
+
+
+/* CURSOS */
+
+#lista{
+
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    justify-content:center;
+
+    gap:20px;
+
+    margin-top:20px;
+
+
+}
+
+
+
+
+
+.curso{
+
+
+    background:#ffffff;
+
+    width:220px;
+
+    padding:20px;
+
+    border-radius:12px;
+
+    box-shadow:0 0 10px #aaa;
+
+    transition:.3s;
+
+
+}
+
+
+
+
+.curso:hover{
+
+
+    transform:scale(1.05);
+
+    background:#f1c40f;
+
+
+}
+
+
+
+.curso h3{
+
+
+    color:#004b87;
+
+    margin-bottom:10px;
+
+
+}
+
+
+
+.curso p{
+
+
+    color:#555;
+
+
+}
+
+
+
+
+.erro{
+
+    color:#e74c3c;
+
+    font-size:14px;
+
+}
+
+
+
+
+@media(max-width:600px){
+
+
+    .card{
+
+        width:95%;
+
+    }
+
+
+    nav{
+
+        gap:10px;
+
+        flex-wrap:wrap;
+
+    }
+
+
+    .curso{
+
+        width:90%;
+
+    }
+
+
+}

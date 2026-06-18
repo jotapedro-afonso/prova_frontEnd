@@ -7,11 +7,67 @@ document.addEventListener("DOMContentLoaded", function () {
 
         botaoCadastro.addEventListener("click", function () {
 
-            window.location.href = "inscricao.html";
+            window.location.href = "cadastro.html";
 
         });
 
     }
+
+    //Redirecionamento de página de inscrição para o painel
+
+   
+    const botaoconfirm = document.getElementById("btnconfirm");
+
+    if (botaoconfirm) {
+
+        botaoconfirm.addEventListener("click", function () {
+
+            window.location.href = "painel.html";
+
+        });
+
+    }
+
+    //botão para ir até a verificação de cursos
+    const botaoCursos = document.getElementById("btncursos");
+
+    if (botaoCursos) {
+
+        botaoCursos.addEventListener("click", function () {
+
+            window.location.href = "cursos.html";
+
+        });
+
+    }
+
+    //botão para ir até o painel de cursos
+    const botaopainel = document.getElementById("btnpainel");
+
+    if (botaopainel) {
+
+        botaopainel.addEventListener("click", function () {
+
+            window.location.href = "painel.html";
+
+        });
+
+    }
+
+
+
+     //botão para ir até as inscrições
+     const botaoinscricao= document.getElementById("btninscricao");
+
+     if (botaoinscricao) {
+ 
+        botaoinscricao.addEventListener("click", function () {
+ 
+             window.location.href = "inscricao.html";
+ 
+         });
+ 
+     }
 
     // Botão voltar
     const botaoVoltar = document.getElementById("btnVoltar");
@@ -162,3 +218,89 @@ function mostrarErro(id, mensagem){
     document.getElementById(id).innerHTML = mensagem;
 
 }
+
+//necessidades especiais
+const especial =
+document.getElementById("especial");
+
+
+const campo =
+document.getElementById("campo");
+
+
+const form =
+document.getElementById("form");
+
+
+const msg =
+document.getElementById("msg");
+
+
+
+
+especial.addEventListener("change",()=>{
+
+
+if(especial.value=="sim"){
+
+
+campo.style.display="block";
+
+
+}else{
+
+
+campo.style.display="none";
+
+
+}
+
+
+});
+
+
+
+
+
+form.addEventListener("submit",(e)=>{
+
+
+e.preventDefault();
+
+
+
+if(especial.value=="sim" &&
+document.getElementById("necessidade").value==""){
+
+
+msg.innerHTML=
+"Preencha a necessidade";
+
+
+msg.className="erro";
+
+
+return;
+
+
+}
+
+
+
+
+msg.innerHTML=
+"Inscrição realizada com sucesso!";
+
+
+msg.className="sucesso";
+
+
+
+form.reset();
+
+
+campo.style.display="none";
+
+
+
+});
