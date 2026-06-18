@@ -13,6 +13,32 @@ document.addEventListener("DOMContentLoaded", function () {
 
     }
 
+    //botão para ir até a verificação de cursos
+    const botaoCursos = document.getElementById("btncursos");
+
+    if (botaoCursos) {
+
+        botaoCursos.addEventListener("click", function () {
+
+            window.location.href = "cursos.html";
+
+        });
+
+    }
+
+     //botão para ir até as inscrições
+     const botaoinscricao= document.getElementById("btninscricao");
+
+     if (botaoinscricao) {
+ 
+        botaoinscricao.addEventListener("click", function () {
+ 
+             window.location.href = "inscricao.html";
+ 
+         });
+ 
+     }
+
     // Botão voltar
     const botaoVoltar = document.getElementById("btnVoltar");
 
